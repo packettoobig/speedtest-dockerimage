@@ -24,4 +24,4 @@ Alternatively, you can :
 
 ## Misc
 Image is built everytime there is a commit to this repo.<br/>
-You can see the latest builds here : [https://hub.docker.com/r/pilbbq/blaeu/builds](https://hub.docker.com/r/pilbbq/blaeu/builds)
+You can see the latest builds here : [https://hub.docker.com/r/pilbbq/speedtest/builds](https://hub.docker.com/r/pilbbq/speedtest/builds)
