@@ -1,25 +1,24 @@
 # blaeu-dockerimage
 
 ## Useful Links
-**Image Location :** [https://hub.docker.com/r/pilbbq/blaeu](https://hub.docker.com/r/pilbbq/blaeu)<br/>
-**Repo Location :** [https://github.com/pilbbq/blaeu-dockerimage](https://github.com/pilbbq/blaeu-dockerimage)<br/>
-**Blaeu Code Location:** [https://framagit.org/bortzmeyer/blaeu](https://framagit.org/bortzmeyer/blaeu)
+**Image Location :** [https://hub.docker.com/r/pilbbq/speedtest](https://hub.docker.com/r/pilbbq/speedtest)<br/>
+**Repo Location :** [https://github.com/pilbbq/speedtest-dockerimage](https://github.com/pilbbq/speedtest-dockerimage)<br/>
+**More info about Speedtest-CLI (thanks to speedtest.net):** [https://www.speedtest.net/en/apps/cli](https://www.speedtest.net/en/apps/cli)
 
 ## Diff with original debian
-We just `pip3 install blaeu` in addition to [the changes in the original image](https://github.com/pilbbq/debian-custom-dockerimage)
+We just `apt-get install speedtest-cli` in addition to [the changes in the original image](https://github.com/pilbbq/debian-custom-dockerimage)
 
 ## How to use
 The *docker.sh* script can be used as-is on a sudo-enabled machine running bash.<br/>
 You will of course need docker to be installed. Please refer to [https://get.docker.com/](https://get.docker.com/) for information on this subject.
 
-The script assumes you have a `.atlas/auth` file in your `$HOME` and mounts it to the same location in the docker file.
+Once you have docker, just :
 
-To get an API key from RIPE atlas, go to [https://atlas.ripe.net/keys/](https://atlas.ripe.net/keys/), and create a new one with "**Schedule a new measurement"** permissions.
-Then, put it in `~/.atlas/auth`. No formatting required.
+	docker run pilbbq/speedtest
 
-Once you have docker and your RIPE Atlas API key, just :
+Alternatively, you can :
 
-	git clone https://github.com/pilbbq/blaeu-dockerimage.git
+	git clone https://github.com/pilbbq/speedtest-dockerimage.git
 	cd debian-custom-dockerimage
 	./docker.sh
 
