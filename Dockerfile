@@ -1,9 +1,7 @@
 # BEGIN
-FROM pilbbq/debian
-WORKDIR /root
-RUN apt-get -qq update && \
-    apt-get -qq install --no-install-recommends ca-certificates speedtest-cli  && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+FROM alpine
+RUN apk -qq update && \
+    apk -qq add py-pip && \
+    pip3 -qq install speedtest-cli && \
 CMD speedtest-cli
 # END
