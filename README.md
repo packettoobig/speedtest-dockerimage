@@ -2,7 +2,7 @@
 
 ## Useful Links
 **Image Location :** [https://hub.docker.com/r/pilbbq/speedtest](https://hub.docker.com/r/pilbbq/speedtest)<br/>
-**Repo Location :** [https://github.com/pilbbq/speedtest-dockerimage](https://github.com/pilbbq/speedtest-dockerimage)<br/>
+**Repo Location :** [https://github.com/packettoobig/speedtest-dockerimage](https://github.com/packettoobig/speedtest-dockerimage)<br/>
 **More info about Speedtest-CLI (thanks to speedtest.net):** [https://www.speedtest.net/en/apps/cli](https://www.speedtest.net/en/apps/cli)
 
 ## Diff with original alpine
