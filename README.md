@@ -1,7 +1,7 @@
 # blaeu-dockerimage
 
 ## Useful Links
-**Image Location :** [https://hub.docker.com/r/pilbbq/speedtest](https://hub.docker.com/r/pilbbq/speedtest)<br/>
+**Image Location :** [https://hub.docker.com/r/packettoobig/speedtest](https://hub.docker.com/r/packettoobig/speedtest)<br/>
 **Repo Location :** [https://github.com/packettoobig/speedtest-dockerimage](https://github.com/packettoobig/speedtest-dockerimage)<br/>
 **More info about Speedtest-CLI (thanks to speedtest.net):** [https://www.speedtest.net/en/apps/cli](https://www.speedtest.net/en/apps/cli)
 
@@ -13,8 +13,8 @@ You will first need docker to be installed. Please refer to [https://get.docker.
 
 Once you have docker, just :
 
-	docker run pilbbq/speedtest
+	docker run packettoobig/speedtest
 
 ## Misc
 Image is built everytime there is a commit to this repo.<br/>
-You can see the latest builds here : [https://hub.docker.com/r/pilbbq/speedtest/builds](https://hub.docker.com/r/pilbbq/speedtest/builds)
+You can see the latest builds here : [https://hub.docker.com/r/packettoobig/speedtest/builds](https://hub.docker.com/r/packettoobig/speedtest/builds)
